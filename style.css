@@ -3,21 +3,32 @@
 body {
     font-family: 'Bruno Ace SC', cursive;
     line-height: 1.5;
+    background-color: #000000;
     color: #ffffff;
 }
 a {
     text-decoration: none;
+    display: block;
+}
+img {
+    display: block;
 }
 .container {
     width: 1296px;
     margin: 0 auto;
 }
-
+/* .intro {
+    width: 636px;
+} */
 .btn {
     width: 185px;
     height: 48px;
     border-radius: 32px;
     padding: 12px 24px;
+}
+.btn-white {
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .bg-black {
@@ -35,10 +46,42 @@ a {
 .jc-sb {
     justify-content: space-between;
 }
+.ta-c {
+    text-align: center;
+}
+.ta-r {
+    text-align: right;
+}
+.jc-c {
+    justify-content: center;
+}
+.jc-fe {
+    justify-content: flex-end;
+}
+.ai-c {
+    align-items: center;
+}
+.box {
+    align-self: flex-end;
+}
 
 .pt-40 {
     padding-top: 40px;
 }
+.py-40 {
+    padding: 40px 0;
+}
+.py-72 {
+    padding: 72px 0;
+}
+.mr-24 {
+    margin-right: 24px;
+}
+.ml-auto {
+    margin-left: auto;
+}
+
+
 .fz-128 {
     font-size: 128px;
 }
@@ -53,4 +96,8 @@ a {
 }
 .fz-16 {
     font-size: 16px;
+}
+
+.c-green {
+    color: #00ffa3;
 }
