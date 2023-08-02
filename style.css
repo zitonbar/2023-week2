@@ -96,6 +96,9 @@ a {
 .d-flex {
     display: flex;
 }
+.fxd-c {
+    flex-direction: column;
+}
 .fxw-w {
     flex-wrap: wrap;
 }
