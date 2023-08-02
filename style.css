@@ -30,9 +30,15 @@ a {
     background-color: #ffffff;
     color: #000000;
 }
+.btn-white:hover {
+    box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.6);
+}
 .btn-black {
     background-color: #000000;
     color: #ffffff;
+}
+.btn-black:hover {
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.6);
 }
 
 .bg-black {
