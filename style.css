@@ -44,7 +44,7 @@ a {
 .bg-black {
     background-color: black;
 }
-.nav a {
+.nav li, .nav a {
     color: #d1d1d1;
 }
 .content {
