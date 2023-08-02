@@ -60,6 +60,7 @@ a {
 .card-item {
     width: 306px;
     border: 1px solid #e3e3d3;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.08);
 }
 .contact-me {
     background-image: linear-gradient(to bottom, #050014, #01021E );
