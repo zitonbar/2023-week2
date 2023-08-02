@@ -21,7 +21,7 @@ a {
 }
 .btn {
     width: 185px;
-    height: 48px;
+    /* height: 48px; */
     border-radius: 32px;
     padding: 12px 24px;
 }
